@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pobieranie danych z satelit</title>
+  <link href="style.css" rel="StyleSheet">
+</head>
+<body>
+  <div id="dane">
+    <nav>
+      <a href="index.html">Pobieranie danych z satelit na żywo</a>
+      <a href="wykresyruchusatelit.html">Wykresy ruchu satelit</a>
+      <a href="kalkulatory.html">Kalkulatory</a>
+    </nav>
+    <h2>Pobieranie danych z satelit na żywo</h2>
+    <div id="wypisane_dane_satelit">
+    </div>
+    <input type="button" id="odswiez" class="przycisk" value="Odśwież">
+  </div>
+
+  <div id="canvas_container">
+    <canvas id="satelitaCanvas" height="2000" width="3500"></canvas>
+  </div>
+  <script src="script.js"></script>
+  <footer>&copy; Tymoteusz Dudzikowski-Radziej</footer>
+</body>
+</html>

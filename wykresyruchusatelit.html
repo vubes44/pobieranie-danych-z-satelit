@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wykresy ruchu satelit</title>
+    <link href="style.css" rel="StyleSheet">
+</head>
+<body>
+    <div id="dane">
+        <nav>
+            <a href="index.html">Pobieranie danych z satelit na żywo</a>
+            <a href="wykresyruchusatelit.html">Wykresy ruchu satelit</a>
+            <a href="kalkulatory.html">Kalkulatory</a>
+            <span id="zegar">ZEGAR</span><br>
+        </nav>
+        <h2>Tworzenie wykresu ruchu satelit</h2>
+            <input type="number" id="sat_id" placeholder="ID satelity"> <span id="nazwaSatelity"></span><br><br>
+            <input type="button" class="przycisk" id="pokaz_wykres" value="Rozpocznij"><br>
+        <div id="containers">
+            <div id="wykresy_container">
+                <canvas id="satelliteChart" height="1200" width="2000"></canvas>
+            </div>
+            <div id="tabela_wpolrzednych_container">
+            <table id="tabela_wspolrzednych">
+                <tr>
+                    <th>Czas UTC</th><th>L</th><th>W</th><th>H</th>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <br>
+    </div><br>
+    <script src="wypiszwykresruchu.js"></script>
+    <footer>&copy; Tymoteusz Dudzikowski-Radziej</footer>
+</body>
+</html>

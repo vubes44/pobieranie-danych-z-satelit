@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulatory do obliczania ruchu po satelit</title>
+    <link href="style.css" rel="StyleSheet">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="index.html">Pobieranie danych z satelit na żywo</a>
+            <a href="wykresyruchusatelit.html">Wykresy ruchu satelit</a>
+            <a href="kalkulatory.html">Kalkulatory</a>
+        </nav>
+        <h2>Kalkulatory do obliczania ruchu satelit</h2>
+        <div id="kalkulatory_container">
+            <div class="kalkulator" id="kalkulator_predkosci_a">
+                <h3>Kalkulator prędkości satelity</h3>
+                <label for="promien_a">Promień </label>
+                <input type="number" id="promien_a" placeholder="m" step="any"><br><br>
+                <label for="kat_a">Kąt </label>
+                <input type="number" id="kat_a" placeholder="°" step="any"><br><br>
+                <label for="czas_a">Czas </label>
+                <input type="number" id="czas_a" placeholder="s" step="any"><br><br>
+                <input type="button" class="przycisk" id="oblicz_predkosc" value="Oblicz"><br>
+                <div id="wynik_predkosc"></div>
+            </div>
+
+            <div class="kalkulator" id="kalkulator_droga_b">
+                <h3>Kalkulator drogi satelity</h3>
+                <label for="dlugosc_0_b">Długość 0 </label>
+                <input type="number" id="dlugosc_0_b" placeholder="°" step="any"><br><br>
+                <label for="szerokosc_0_b">Szerokość 0 </label>
+                <input type="number" id="szerokosc_0_b" placeholder="°" step="any"><br><br>
+                <label for="dlugosc_1_b">Długość 1 </label>
+                <input type="number" id="dlugosc_1_b" placeholder="°" step="any"><br><br>
+                <label for="szerokosc_1_b">Szerokość 1 </label>
+                <input type="number" id="szerokosc_1_b" placeholder="°" step="any"><br><br>
+                <input type="button" class="przycisk" id="oblicz_droge" value="Oblicz"><br>
+                <div id="wynik_droga"></div>
+            </div>
+
+            <div class="kalkulator" id="kalkulator_predkosci_c">
+                <h3>Kalkulator prędkości satelity ze współrzędnych</h3>
+                <label for="dlugosc_0_c">Długość 0 </label>
+                <input type="number" id="dlugosc_0_c" placeholder="°" step="any"><br><br>
+                <label for="szerokosc_0_c">Szerokość 0 </label>
+                <input type="number" id="szerokosc_0_c" placeholder="°" step="any"><br><br>
+                <label for="dlugosc_1_c">Długość 1 </label>
+                <input type="number" id="dlugosc_1_c" placeholder="°" step="any"><br><br>
+                <label for="szerokosc_1_c">Szerokość 1 </label>
+                <input type="number" id="szerokosc_1_c" placeholder="°" step="any"><br><br>
+                <label for="czas_c">Czas </label>
+                <input type="number" id="czas_c" placeholder="s" step="any"><br><br>
+                <input type="button" class="przycisk" id="oblicz_predkosc_wspolrzedne" value="Oblicz"><br>
+                <div id="wynik_predkosc_wspolrzedne"></div>
+            </div>
+        </div>
+    <br>
+    </div>
+    <script src="kalkulatory.js"></script>
+    <footer>&copy; Tymoteusz Dudzikowski-Radziej</footer>
+</body>
+</html>
