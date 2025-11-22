@@ -1,4 +1,4 @@
-const API_KEY = "EkgzDLYujYKx7oRRsiL6BY";
+const API_KEY = "AAtvpD6uSh6ZCVanp9qRxz";
 const BASE_URL = "https://api.spectator.earth/satellite/";
 
 function updateClock() {
