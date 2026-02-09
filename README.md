@@ -1,7 +1,5 @@
 Projekt do pobierania danych z satelit
-# Program do pobierania danych z satelit
-
-Prosta aplikacja webowa do śledzenia satelit, pobierania aktualnych danych orbitalnych (TLE), wyświetlania pozycji Międzynarodowej Stacji Kosmicznej (ISS) oraz tworzenia wykresów ruchu, prędkości i wysokości.
+Aplikacja webowa do śledzenia satelit, pobierania aktualnych danych orbitalnych (TLE), wyświetlania pozycji Międzynarodowej Stacji Kosmicznej (ISS) oraz tworzenia wykresów ruchu, prędkości i wysokości.
 
 Aplikacja składa się z 5 głównych podstron:
 
@@ -12,16 +10,16 @@ Aplikacja składa się z 5 głównych podstron:
 4. Tworzenie wykresu prędkości i wysokości
 
 
-## Główne możliwości
+Główne możliwości
 
-- Pobieranie aktualnych zestawów **TLE** (Two-Line Element) dla wybranych satelit  
+Pobieranie aktualnych zestawów **TLE** (Two-Line Element) dla wybranych satelit  
 - Wyświetlanie bieżącej pozycji ISS w czasie rzeczywistym  
 - Rysowanie trajektorii / orbity na mapie (HTML Canvas)  
 - Dynamiczne wykresy zmian wysokości i prędkości (Chart.js)  
 - Proste kalkulatory orbitalne (prędkość, okres obiegu, itp.)  
 - Dedykowana strona z informacjami o ISS (wysokość, prędkość, widoczność)
 
-## Technologie
+Technologie
 
 - **Framework**: Vue.js 3 + Vite  
 - **Budowanie**: Vite + Esbuild  
