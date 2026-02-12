@@ -7,9 +7,9 @@ Aplikacja składa się z 5 głównych podstron:
 
 0. Pobieranie danych z satelit  
 1. Tworzenie wykresu ruchu satelity  
-2. Kalkulatory  
-3. ISS  
-4. Tworzenie wykresu prędkości i wysokości
+2. Kalkulatory  np. do prędkości satelity, prędkości kątowej, różnicy położenia
+3. ISS (wykres, wysokość)
+4. Tworzenie wykresu prędkości i wysokości z użyciem chart.js
 
 
 Główne możliwości
@@ -33,3 +33,21 @@ Technologie
   - Spectator Earth API → https://api.spectator.earth/ (pozycje, przeloty)
 - **Narzędzia**: Visual Studio Code, GitHub, PowerShell  
 - **Format**: JSON
+
+INNE WAŻNE
+
+jak działają dane orbitalne (TLE)?
+TLE (Two-Line Element) to zestaw danych opisujących orbitę satelity.
+Na ich podstawie można obliczyć:
+
+aktualną pozycję satelity,
+
+wysokość nad Ziemią,
+
+prędkość orbitalną,
+
+okres obiegu,
+
+przewidywaną trajektorię.
+
+Aplikacja pobiera aktualne TLE z zewnętrznego API i przelicza je na współrzędne geograficzne w czasie rzeczywistym.
