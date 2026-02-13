@@ -1,4 +1,4 @@
-PROGRAM DO POBIERANIA DANYCH SATELIT
+<img width="1920" height="913" alt="satelity pnh" src="https://github.com/user-attachments/assets/95f86245-d065-4faa-a111-2e717e7950e3" />PROGRAM DO POBIERANIA DANYCH SATELIT
 
 Projekt do pobierania danych z satelit
 Aplikacja webowa do śledzenia satelit, pobierania aktualnych danych orbitalnych (TLE), wyświetlania pozycji Międzynarodowej Stacji Kosmicznej (ISS) oraz tworzenia wykresów ruchu, prędkości i wysokości.
@@ -7,9 +7,11 @@ Aplikacja składa się z 5 głównych podstron:
 
 0. Pobieranie danych z satelit  
 1. Tworzenie wykresu ruchu satelity  
-2. Kalkulatory  np. do prędkości satelity, prędkości kątowej, różnicy położenia
+2. Kalkulatory  np. do prędko<ci
+ści satelity, prędkości kątowej, różnicy położenia
 3. ISS (wykres, wysokość)
 4. Tworzenie wykresu prędkości i wysokości z użyciem chart.js
+![U[Uploading program do pobierania danych satelit…]()ploading satelity.pnh.png…]()
 
 
 Główne możliwości
