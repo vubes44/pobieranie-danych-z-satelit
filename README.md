@@ -11,8 +11,7 @@ Aplikacja składa się z 5 głównych podstron:
 ści satelity, prędkości kątowej, różnicy położenia
 3. ISS (wykres, wysokość)
 4. Tworzenie wykresu prędkości i wysokości z użyciem chart.js
-![U[Uploading program do pobierania danych satelit…]()ploading satelity.pnh.png…]()
-
+![download](https://github.com/user-attachments/assets/b89ddfb6-1fe7-45f3-9902-faa0a2de24df)
 
 Główne możliwości
 
