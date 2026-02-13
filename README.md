@@ -11,7 +11,9 @@ Aplikacja składa się z 5 głównych podstron:
 ści satelity, prędkości kątowej, różnicy położenia
 3. ISS (wykres, wysokość)
 4. Tworzenie wykresu prędkości i wysokości z użyciem chart.js
+   .
 ![download](https://github.com/user-attachments/assets/b89ddfb6-1fe7-45f3-9902-faa0a2de24df)
+.
 
 Główne możliwości
 
@@ -34,6 +36,9 @@ Technologie
   - Spectator Earth API → https://api.spectator.earth/ (pozycje, przeloty)
 - **Narzędzia**: Visual Studio Code, GitHub, PowerShell  
 - **Format**: JSON
+  
+![Landsat 8](https://github.com/user-attachments/assets/c397472c-bfc4-4399-9e91-0a78aa076098)
+
 
 INNE WAŻNE
 
@@ -52,3 +57,6 @@ okres obiegu,
 przewidywaną trajektorię.
 
 Aplikacja pobiera aktualne TLE z zewnętrznego API i przelicza je na współrzędne geograficzne w czasie rzeczywistym.
+
+
+<img width="1692" height="551" alt="kalkulatory" src="https://github.com/user-attachments/assets/84151add-07a3-45e4-999e-5d1440c33b08" />
